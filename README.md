@@ -12,6 +12,7 @@ go run *.go
 
 * [Docs](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
   * [Preventing Item Overwrite](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.ConditionExpressions.html#Expressions.ConditionExpressions.PreventingOverwrites) (`attribute_not_exists(Id)`)
+  * [TTL (expiring data)](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/TTL.html)
 * [Examples](https://docs.aws.amazon.com/sdk-for-go/v1/developer-guide/using-dynamodb-with-go-sdk.html)
 * [Golang SDK API](https://docs.aws.amazon.com/sdk-for-go/api/service/dynamodb/)
   * [PutItem](http://docs.aws.amazon.com/sdk-for-go/api/service/dynamodb/#DynamoDB.PutItem)
